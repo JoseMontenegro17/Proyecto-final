@@ -4,8 +4,8 @@ public class Moto extends Vehiculo {
     private boolean tieneSidecar;
 
     // Constructor
-    public Moto(String marca, double precio, int cilindraje, boolean tieneSidecar) {
-        super(marca, precio, cilindraje);
+    public Moto(String placa,String marca, double precio, int cilindraje, boolean tieneSidecar) {
+        super(placa,marca, precio, cilindraje);
         this.tieneSidecar = tieneSidecar;
         ajustarValores();
     }
@@ -20,7 +20,6 @@ public class Moto extends Vehiculo {
     }
 
     public boolean isTieneSidecar() {
-
         return tieneSidecar;
-    }                 
+    }
 }

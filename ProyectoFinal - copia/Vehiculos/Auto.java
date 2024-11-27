@@ -5,8 +5,8 @@ public class Auto extends Vehiculo {
     private boolean tieneNavegador;
 
     // Constructor
-    public Auto(String marca, double precio, int cilindraje, boolean tieneRadio, boolean tieneNavegador) {
-        super(marca, precio, cilindraje);
+    public Auto(String placa,String marca, double precio, int cilindraje, boolean tieneRadio, boolean tieneNavegador) {
+        super(placa,marca, precio, cilindraje);
         this.tieneRadio = tieneRadio;
         this.tieneNavegador = tieneNavegador;
         ajustarValores();
